@@ -1,6 +1,6 @@
 # Modified GenZ-ICP
 
-This repository is a GitHub-ready cleanup of the modified `genz-icp` package. It is based on the original GenZ-ICP LiDAR odometry project and adds ROS2-oriented covariance output, IMU-assisted initialization and deskewing, robust registration gates, dynamic-scene filtering, and rover/Blickfeld launch presets.
+This repository contains a ROS2-focused modified version of GenZ-ICP for rover LiDAR odometry. It builds on the original GenZ-ICP project and adds covariance output, IMU-assisted initialization and deskewing, registration quality gates, dynamic-scene filtering, twist output, and rover/Blickfeld launch presets.
 
 The repository name is `modified-genz-icp`. The ROS package name remains `genz_icp`, so existing ROS launch and package commands still use `genz_icp`.
 
