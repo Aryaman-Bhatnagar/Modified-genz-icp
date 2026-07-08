@@ -1,12 +1,33 @@
 cff-version: 1.2.0
-message: "If you use this modified code, please cite the original GenZ-ICP paper."
+message: "If you use this modified software, please cite this repository and the original GenZ-ICP paper listed in preferred-citation."
+
+title: "Modified GenZ-ICP for Rover LiDAR Odometry"
+version: "0.1.0"
+date-released: "2026-07-08"
+license: "MIT"
+
+authors:
+  - family-names: Bhatnagar
+    given-names: Aryaman
+    affiliation: "UAS-DTU, Delhi Technological University"
+
+abstract: "A modified ROS2-focused GenZ-ICP package for rover LiDAR odometry, adding covariance output, IMU-assisted initialization and deskewing, registration quality gates, dynamic-scene filtering, twist output, and rover/Blickfeld launch presets."
+
+keywords:
+  - "LiDAR odometry"
+  - "ICP"
+  - "ROS2"
+  - "robotics"
+  - "SLAM"
+  - "UGV"
+  - "GenZ-ICP"
+  - "Blickfeld"
+
+repository-code: "https://github.com/Aryaman-Bhatnagar/Modified-genz-icp"
+
 preferred-citation:
-  title: "GenZ-ICP: Generalizable and Degeneracy-Robust LiDAR Odometry Using an Adaptive Weighting"
-  doi: "10.1109/LRA.2024.3498779"
-  year: "2025"
   type: article
-  journal: "IEEE Robotics and Automation Letters (RA-L)"
-  codeurl: https://github.com/cocel-postech/genz-icp
+  title: "GenZ-ICP: Generalizable and Degeneracy-Robust LiDAR Odometry Using an Adaptive Weighting"
   authors:
     - family-names: Lee
       given-names: Daehan
@@ -14,3 +35,52 @@ preferred-citation:
       given-names: Hyungtae
     - family-names: Han
       given-names: Soohee
+  journal: "IEEE Robotics and Automation Letters"
+  volume: 10
+  issue: 1
+  start: 152
+  end: 159
+  year: 2025
+  doi: "10.1109/LRA.2024.3498779"
+  url: "https://ieeexplore.ieee.org/document/10753079"
+
+references:
+  - type: software
+    title: "GenZ-ICP"
+    authors:
+      - family-names: Lee
+        given-names: Daehan
+      - family-names: Lim
+        given-names: Hyungtae
+      - family-names: Han
+        given-names: Soohee
+    repository-code: "https://github.com/cocel-postech/genz-icp"
+
+  - type: article
+    title: "GenZ-ICP: Generalizable and Degeneracy-Robust LiDAR Odometry Using an Adaptive Weighting"
+    authors:
+      - family-names: Lee
+        given-names: Daehan
+      - family-names: Lim
+        given-names: Hyungtae
+      - family-names: Han
+        given-names: Soohee
+    journal: "IEEE Robotics and Automation Letters"
+    volume: 10
+    issue: 1
+    start: 152
+    end: 159
+    year: 2025
+    doi: "10.1109/LRA.2024.3498779"
+
+  - type: software
+    title: "KISS-ICP"
+    authors:
+      - family-names: Vizzo
+        given-names: Ignacio
+      - family-names: Guadagnino
+        given-names: Tiziano
+      - family-names: Mersch
+        given-names: Benedikt
+      - family-names: Stachniss
+        given-names: Cyrill
