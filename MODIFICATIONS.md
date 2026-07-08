@@ -1,6 +1,6 @@
 # Changes From Original GenZ-ICP
 
-This list was produced by comparing the modified workspace package at `src/genz-icp` against the local original copy at `src/original genz icp`.
+This list summarizes the major changes in this modified repository relative to the original GenZ-ICP codebase.
 
 ## Summary
 
