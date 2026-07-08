@@ -20,7 +20,7 @@ The original repository's Python bindings and Python dataset tools are not inclu
 
 ## Main Improvements
 
-A detailed comparison against the original local copy is in [MODIFICATIONS.md](MODIFICATIONS.md). The short version:
+A detailed comparison against the original GenZ-ICP codebase is in MODIFICATIONS.md. The short version:
 
 - Publishes a 6x6 pose covariance from the ICP information matrix in `nav_msgs/Odometry`.
 - Adds registration quality metrics: RMSE, weighted RMSE, correspondence count, pose delta, finite-output checks, and rejection recovery.
@@ -50,7 +50,7 @@ ROS1 wrapper code is still present, but the new IMU, deskew, dynamic filter, cov
 ```sh
 mkdir -p ~/colcon_ws/src
 cd ~/colcon_ws/src
-git clone https://github.com/<your-user>/modified-genz-icp.git
+git clone https://github.com/Aryaman-Bhatnagar/Modified-genz-icp.git
 cd ~/colcon_ws
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
